@@ -283,7 +283,7 @@ a.header-email::before {
 }
 
 .bottom-header-content {
-  padding: 23px 54px 22px 22px;
+  padding: 23px 54px 22px 20px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -336,11 +336,95 @@ span.search::before {
 /*=================================
   main styling starts here
 =================================*/
-section.banner {
-  background-image: url(/assets/images/banner2.jpg);
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
 }
+
+section.banner {
+  position: relative;
+}
+
 section.banner .wrapper {
   width: 68%;
+}
+
+.not-show {
+  display: none;
+}
+
+.banner-heading-para {
+  position: absolute;
+  top: 31%;
+}
+
+h2.banner-heading {
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 78px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+p.banner-para {
+  width: 68%;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 600;
+}
+
+a.banner-button {
+  padding: 12px 58px;
+  margin-top: 50px;
+  background-color: #fa9c1c;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+}
+
+.banner-controller {
+  position: absolute;
+  bottom: -24px;
+  right: 8%;
+}
+
+.banner-controller .left-arrow::before {
+  content: '\3c';
+  font-family: 'FontAwesome';
+  color: #fff;
+  font-size: 26px;
+  text-indent: 0;
+  float: left;
+}
+
+span.left-arrow {
+  display: inline-block;
+  text-indent: -99999px;
+}
+
+.banner-controller .right-arrow::before {
+  content: '\3e';
+  font-family: 'FontAwesome';
+  color: #fff;
+  font-size: 26px;
+  text-indent: 0;
+  float: left;
+}
+
+span.right-arrow {
+  display: inline-block;
+  text-indent: -99999px;
+}
+
+.banner-controller span {
+  padding: 16px 20px;
+  border-radius: 50%;
+  background: #181627;
+  margin-right: 14px;
 }
 /*=================================
   main styling ends here
