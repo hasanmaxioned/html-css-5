@@ -100,15 +100,90 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 90%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+.top-header {
+  padding: 12px 0;
+  background-color: #171725;
+}
 
+ul.top-header-contact-info li a {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
 
+a.facebook::before {
+  content: '\f39e';
+  color: #171725;
+  font-family: 'fontAwesome';
+  font-size: 12px;
+}
 
+a.twitter::before {
+  content: '\f099';
+  color: #171725;
+  font-family: 'fontAwesome';
+  font-size: 12px;
+}
+
+a.linkedin::before {
+  content: '\f0e1';
+  color: #171725;
+  font-family: 'fontAwesome';
+  font-size: 12px;
+}
+
+a.instagram::before {
+  content: '\f16d';
+  color: #171725;
+  font-family: 'fontAwesome';
+  font-size: 12px;
+}
+
+ul.top-header-contact-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+ul.header-social li a {
+  width: 20px;
+  height: 19px;
+  border-radius: 50px;
+  margin-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+ul.header-social { display: flex; }
+
+a.header-number::before {
+  content: '\f095';
+  font-family: 'FontAwesome';
+  margin-right: 10px;
+}
+
+a.header-email span::before {
+  content: '\f0e0';
+  font-family: 'FontAwesome';
+  margin-right: 10px;
+  text-indent: 0;
+  float: left;
+}
+
+a.header-email span {
+  display: inline-block;
+  text-indent: -99999px;
+  position: relative;
+  top: 4px;
+}
 
 
 
