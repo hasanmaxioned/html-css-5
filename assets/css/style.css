@@ -165,26 +165,22 @@ ul.header-social li a {
 ul.header-social { display: flex; }
 
 a.header-number::before {
+  margin-right: 10px;
   content: '\f095';
   font-family: 'FontAwesome';
-  margin-right: 10px;
 }
 
-a.header-email span::before {
+a.header-email::before {
+  margin-right: 10px;
   content: '\f0e0';
   font-family: 'FontAwesome';
-  margin-right: 10px;
-  text-indent: 0;
-  float: left;
 }
 
-a.header-email span {
-  display: inline-block;
-  text-indent: -99999px;
-  position: relative;
-  top: 4px;
-}
+.bottom-header .wrapper {width: 66%;}
 
+.bottom-header {
+  padding: 29px 0;
+}
 
 
 /*=================================
