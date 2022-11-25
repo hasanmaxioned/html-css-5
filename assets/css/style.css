@@ -143,6 +143,7 @@ em {
 
 img {
   width: 100%;
+  height: 100%;
   border: 0;
   vertical-align: middle;
 }
@@ -355,6 +356,14 @@ section.banner .wrapper {
   display: none;
 }
 
+figure.banner-img {
+  height: 646px;
+}
+
+li.banner-content {
+  width: 100%;
+}
+
 .banner-heading-para {
   position: absolute;
   top: 31%;
@@ -388,17 +397,17 @@ a.banner-button {
 
 .banner-controller {
   position: absolute;
-  bottom: -24px;
   right: 8%;
+  bottom: -24px;
 }
 
 .banner-controller .left-arrow::before {
-  content: '\3c';
-  font-family: 'FontAwesome';
-  color: #fff;
-  font-size: 26px;
-  text-indent: 0;
   float: left;
+  color: #fff;
+  content: '\f053';
+  font-family: 'FontAwesome';
+  font-size: 21px;
+  text-indent: 0;
 }
 
 span.left-arrow {
@@ -407,12 +416,12 @@ span.left-arrow {
 }
 
 .banner-controller .right-arrow::before {
-  content: '\3e';
-  font-family: 'FontAwesome';
-  color: #fff;
-  font-size: 26px;
-  text-indent: 0;
   float: left;
+  color: #fff;
+  content: '\f054';
+  font-family: 'FontAwesome';
+  font-size: 21px;
+  text-indent: 0;
 }
 
 span.right-arrow {
@@ -421,11 +430,46 @@ span.right-arrow {
 }
 
 .banner-controller span {
-  padding: 16px 20px;
+  padding: 18px 22px;
   border-radius: 50%;
-  background: #181627;
   margin-right: 14px;
+  background: #181627;
 }
+
+/* services icon css  */
+
+ul.services-list {
+  position: absolute;
+  top: -65px;
+}
+
+.services .wrapper {
+  width: 69%;
+  position: relative;
+}
+
+ul.services-list li {
+  width: 200px;
+  height: 100%;
+  padding: 27px 0px 17px 0;
+  margin-right: 21px;
+  background-color: #fff;
+}
+
+figure.service-img {
+  width: 65px;
+  margin: 0 auto;
+}
+
+figcaption.service-heading {
+  padding: 21px 0 0 0;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /*=================================
   main styling ends here
 =================================*/
