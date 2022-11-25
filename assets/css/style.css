@@ -649,6 +649,136 @@ figcaption.client-heading {
 
 ul.choose-img li { width: 30%; }
 
+/* staff section css  */
+section.staff {
+  padding-top: 68px;
+  background-color: #fffbfb;
+}
+
+section.staff .wrapper { width: 76%; }
+
+ul.staff-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure.staff-img {
+  width: 169px;
+  padding: 41px 15px 0 15px;
+  margin: 0 auto;
+  background-color: #cdc8c8;
+}
+
+.staff-content {
+  padding: 0px 40px 10px 40px;
+  border-radius: 8px;
+  background: #e89019;
+}
+
+.staff-content figcaption {
+  padding: 10px 0;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+ul.staff-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.staff-social li a {
+  padding: 6px 12px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+ul.staff-social li { margin-right: 3px; }
+
+.see-more {
+  margin-top: 47px;
+  text-align: center;
+}
+
+.see-more a {
+  padding: 13px 41px;
+  border-radius: 10px;
+  background: #191918;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.see-more a:hover { background-color: #fa9b1c; }
+
+/* contact us css  */
+section.contact {
+  margin-top: 72px;
+}
+
+section.contact .wrapper {
+  width: 66%;
+}
+
+h4.contact-heading {
+  margin-bottom: 24px;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+ul.contact-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.contact-details li { width: 50%; }
+
+ul.contact-details li form {
+  padding: 29px 55px;
+  background: #f5f5f5;
+}
+
+.form-input-container input {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: 2px -2px 5px white;
+  font-family: 'Poppins';
+}
+
+.form-textarea-container textarea {
+  padding: 12px 22px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 2px -2px 5px white;
+  font-family: 'Poppins';
+}
+
+.form-input-container { width: 100%; }
+
+.form-button-container input {
+  padding: 12px 35px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+iframe.gmap_iframe {
+  width: 100%;
+  height: 383px;
+}
 /*=================================
   main styling ends here
 =================================*/
