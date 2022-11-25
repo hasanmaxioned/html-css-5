@@ -519,7 +519,7 @@ figure.about-img {
 /* project section css  */
 section.project { margin: 74px 0 116px 0; }
 
-h3.section-heading {
+.project h3.section-heading {
   color: #252827;
   font-family: 'Poppins';
   font-size: 30px;
@@ -528,8 +528,9 @@ h3.section-heading {
   text-transform: capitalize;
 }
 
-p.section-para {
+.project p.section-para {
   padding: 7px 0 46px 0;
+  color: #252827;
   font-family: 'Poppins';
   font-size: 13px;
   font-weight: 400;
@@ -612,7 +613,7 @@ section.why-choose {
 section.why-choose .wrapper { width: 69%; }
 
 .choose-us-content h4 {
-  padding-bottom: 17x;
+  padding-bottom: 17px;
   color: #1f283a;
   font-family: 'Poppins';
   font-size: 30px;
