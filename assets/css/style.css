@@ -280,7 +280,7 @@ a.header-email::before {
 .bottom-header .wrapper { width: 69%; }
 
 .bottom-header-content {
-  padding: 23px 54px 22px 20px;
+  padding: 18px 45px 18px 20px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -292,17 +292,16 @@ h1.logo a {
   color: #282229;
   font-family: "Poppins";
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
 ul.menu li a {
-  padding: 7px 15px 7px 15px;
-  margin-right: 6px;
+  padding: 11px 19px 11px 19px;
   color: #333;
   font-family: "Poppins";
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -314,7 +313,7 @@ ul.menu li a:hover {
 
 span.search {
   position: absolute;
-  top: 35px;
+  top: 33px;
   right: 28px;
   text-indent: -99999px;
 }
@@ -335,7 +334,7 @@ span.search::before {
 =================================*/
 header {
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 9999;
   top: 0;
 }
@@ -346,20 +345,20 @@ section.banner .wrapper { width: 68%; }
 
 .not-show { display: none; }
 
-figure.banner-img { height: 646px; }
+figure.banner-img { height: 667px; }
 
 li.banner-content { width: 100%; }
 
 .banner-heading-para {
   position: absolute;
-  top: 31%;
+  top: 34%;
 }
 
 h2.banner-heading {
   color: #fff;
   font-family: 'Poppins';
-  font-size: 78px;
-  font-weight: 600;
+  font-size: 80px;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -368,14 +367,15 @@ p.banner-para {
   color: #fff;
   font-family: 'Poppins';
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.8;
 }
 
 a.banner-button {
-  padding: 12px 58px;
-  margin-top: 50px;
+  padding: 12px 62px;
+  margin-top: 43px;
   background-color: #fa9c1c;
-  border-radius: 6px;
+  border-radius: 4px;
   color: #fff;
   font-family: 'Poppins';
   text-transform: uppercase;
@@ -443,7 +443,7 @@ ul.services-list {
 }
 
 ul.services-list li {
-  width: 200px;
+  width: 212px;
   height: 100%;
   padding: 27px 0px 17px 0;
   border: 1px solid #efefef;
@@ -460,7 +460,7 @@ figcaption.service-heading {
   padding-top: 21px;
   font-family: 'Poppins';
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
 }
@@ -481,7 +481,7 @@ section.about .wrapper { width: 90%; }
   color: #252827;
   font-family: "Poppins";
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -498,14 +498,14 @@ p.about-para {
 }
 
 a.read-more-btn {
-  padding: 16px 32px;
+  padding: 16px 40px;
   border-radius: 7px;
   margin-top: 46px;
   background-color: #191918;
   color: #ffff;
   font-family: 'Poppins';
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -522,7 +522,7 @@ section.project { margin: 74px 0 116px 0; }
 .project h3.section-heading {
   color: #252827;
   font-family: 'Poppins';
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   text-align: center;
   text-transform: capitalize;
@@ -606,8 +606,7 @@ span.right-arrow {
 section.why-choose {
   padding: 40px 0 80px 0;
   background-image: url(/assets/images/choose_bg.jpg);
-  background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 section.why-choose .wrapper { width: 69%; }
@@ -617,18 +616,18 @@ section.why-choose .wrapper { width: 69%; }
   color: #1f283a;
   font-family: 'Poppins';
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
 .choose-us-content p {
   font-family: 'Poppins';
-  font-size: 14px;
-  font-weight: 200;
-  line-height: 24px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
-.choose-us-content { width: 56%; }
+.choose-us-content { width: 51%; }
 
 ul.choose-img {
   margin-top: 69px;
@@ -648,8 +647,8 @@ figure.award-img {
 figcaption.client-heading {
   padding-top: 11px;
   font-family: 'Poppins';
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
 }
